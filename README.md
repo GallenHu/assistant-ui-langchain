@@ -5,4 +5,10 @@ wget https://raw.githubusercontent.com/mynane/PDF/master/Shell%20%E6%95%99%E7%A8
 npm run dev
 ```
 
-POST to http://localhost:3000/api/rag
+```
+curl -X "POST" "http://127.0.0.1:3000/api/rag" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{
+  "question": "shell 与编译型语言的差异"
+}'
+```
