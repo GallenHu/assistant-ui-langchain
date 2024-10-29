@@ -1,25 +1,8 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) + [LangChain.js](https://github.com/langchain-ai/langchainjs) starter project.
+## RAG
 
-## Getting Started
-
-First, add your OpenAI API key to `.env.local` file:
-
-```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-Then, run the development server:
-
-```bash
+```sh
+wget https://raw.githubusercontent.com/mynane/PDF/master/Shell%20%E6%95%99%E7%A8%8B%20-%20v1.0.pdf -O test.pdf
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+POST to http://localhost:3000/api/rag
