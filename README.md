@@ -1,4 +1,4 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+This is the [assistant-ui](https://github.com/Yonom/assistant-ui) + [LangChain.js](https://github.com/langchain-ai/langchainjs) starter project.
 
 ## Getting Started
 
